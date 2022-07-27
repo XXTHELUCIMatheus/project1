@@ -3,22 +3,18 @@
 
 
 <body>
-    <header class="main-header-container">
-        <div class="main-header container">
-
-            <h1>
-                <a href="">
-                    <i class="fas fa-address-book"></i>
-                    <span>Bike Anjo</span>
-                </a>
-
-            </h1>
+    {% include 'recipes/partials/header.htlm' %}
+    
+    <div class="search-container">
+        <div class="container">
+            <form action="" class="search-form">
+                <input type="search" class="search-input" name ="search">
+                <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+            </form>
 
         </div>
 
-    </header>
-
-
+    </div>
 </body>
 
 </html
